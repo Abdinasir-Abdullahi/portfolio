@@ -28,6 +28,9 @@
     font-size: 20Spx;
     color: white;
 }
+
+
+
 /* nav */
 .nav #navber ul{
     display: flex;
@@ -51,11 +54,6 @@
 /*  */
 
 .open-nav,.close-nav{
-    width: 40px;
-    height: 20px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
     display: none;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.26);
@@ -93,6 +91,76 @@
     height: 8px;
     background: rgb(5, 5, 5);
 }
+
+
+/* phone menu */
+
+@media (max-width: 900px){
+
+
+
+    .nav #navber ul{
+        display: none;
+        position: absolute;
+        right: 30px;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .nav #navber ul li{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .nav #navber ul li:hover{
+        border-bottom: 1px solid rgb(230, 230, 230);
+    }
+    .nav #navber ul li a{
+        text-decoration: none;
+        color: rgb(236, 226, 208);
+    }
+    /*  */
+
+    .open-nav,.close-nav{
+        /* display: block; */
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.26);
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 8px;
+        line-height: 2;
+        border: 1px solid rgba(195, 195, 195, 0.356);
+        position: absolute;
+        
+    }
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /* space-top */
