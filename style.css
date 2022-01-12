@@ -203,14 +203,6 @@
     color: white;
     font-size: 16px;
     font-family: monospace;
-    overflow: hidden;
-    border-right: .15em solid rgb(173, 7, 62);
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em;
-    animation: 
-      qoraaye 4.7s steps(70, end),
-      boodaaye .5s step-end infinite;  
 }
 .container .info p{
     color: rgb(241, 240, 241);
@@ -229,7 +221,7 @@
 /* container media 980px */
 @media (max-width: 1090px){
     .container{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         width: 100%;
         height: 100%;
         background-image: url(imgs/XrgL6.jpg);
@@ -241,7 +233,7 @@
         display: block;
         margin-bottom: 20px;
     }
-    .container .me{
+    /* .container .me{
         padding: 10px;
          width: 100%;
          height: 30%;
@@ -252,9 +244,9 @@
          display: flex;
          flex-direction: column;
          line-height: 3;
-     }
+     } */
     
-    .container .info{
+    /* .container .info{
         padding: 10px;
         width: 100%;
         height: 50%;
@@ -266,16 +258,16 @@
          flex-direction: column;
          line-height: 2;
      }
-    
+     */
      
     .container .info .qor .qor-h1 {
         display: none;
       }
-      .container .qor .for{
+      .container .for{
         color: white;
         display: block;
     }
-    .container .qor .for h1{
+    .container .for h1{
         color: white;
         font-size: 16px;
     }
