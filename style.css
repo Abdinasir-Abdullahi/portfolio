@@ -237,9 +237,18 @@
     .container .me{
         width: 100%;
         padding: 10px;
-        margin: 10px;
+        /* margin: 10px; */
         overflow: hidden;
-        height: 50%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+    }
+    .container .me h1{
+        margin: 2px;
+        font-size: 20px;
     }
     .container .me img{
         width: 25%;
@@ -271,8 +280,12 @@
         font-size: 16px;
     }
     .container .info .icons{
+        width: 100%;
         margin: 10px;
         padding: 10px;
+    }
+    .container .info .icons img{
+        width: 20px;
     }
     
       
